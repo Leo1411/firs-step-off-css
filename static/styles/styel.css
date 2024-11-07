@@ -90,6 +90,7 @@ background-color: #2F303A;
     line-height: 1.88;
     letter-spacing: 0.06;
     cursor: pointer;
+    
 }
  
 
@@ -113,7 +114,7 @@ background-color: #2F303A;
     font-size: 14;
     line-height: 1.71;
     letter-spacing: 0.03;
-    
+   
 }
 
 .title {
@@ -154,9 +155,9 @@ background-color: #2F303A;
 
 
 /* Стили для нижнего логотипа */
-.logo-footer-container a {
+.logo-footer-container {
     font-family: "Raleway";
-    text-decoration: none;      /* Убирает подчеркивание */
+           /* Убирает подчеркивание */
     font-weight: 700;           /* Жирное начертание шрифта */
     font-size: 24px;            /* Размер шрифта */
     line-height: 1.5;           /* Высота строки */
@@ -166,35 +167,32 @@ background-color: #2F303A;
 
 /* Цвет синего для 'Web' */
 .logo-footer-container .logo-footer {
+  
     color: #2196F3;             /* Синий цвет для 'Web' */
 }
 
 /* Белый цвет для 'Studio' */
 .logo-footer-container .link-footer {
-    color: #FFFFFF;             /* Белый цвет для 'Studio' */
+    color: #FFFFFF;
+    text-decoration: none;             /* Белый цвет для 'Studio' */
 }
 
-/* Эффект hover для нижнего логотипа */
-.logo-footer-container .link-footer:hover,
-.logo-footer-container .link-footer:focus {
-    color: #FFFFFF;             /* Цвет текста при наведении */
-}
 
-/* Дополнительный эффект для части 'Web' при наведении */
-.logo-footer-container .logo-footer:hover {
-    color: #1E3D58;             /* Более темный синий для 'Web' при наведении */
-}
+
 
 .info {
     background-color: #2F303A;
 }
 
 .footer {
+    font-family: "Roboto";
     list-style: none;
 }
 
 
 .info-footer-link-item{
+    font-family: "Roboto";
+    font-style: normal;
     text-decoration: none;
     color: #FFFFFF99
     
@@ -202,6 +200,8 @@ background-color: #2F303A;
 }
 
 .info-footer-link {
+    font-family: "Roboto";
+    font-style: normal;
     text-decoration: none;
     font-weight: 400;
     font-size: 14;
@@ -210,8 +210,13 @@ background-color: #2F303A;
     color: #FFFFFF;
 }
 
-.ino-footer-link:hover,
+.info-footer-link:hover,
 .info-footer-link:focus {
+    color: #2196F3;
+}
+
+.info-footer-link-item:hover,
+.info-footer-link-item:focus {
     color: #2196F3;
 }
 
