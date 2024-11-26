@@ -1,0 +1,270 @@
+.body {
+    font-family: "Roboto", sans-serif
+}
+
+.link {
+    text-decoration: none;
+    list-style: none;;
+}
+
+.logo {
+    font-family: "Raleway";
+    text-decoration: none;
+}
+
+.link-logo {
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000000;
+}
+
+.logo-accent {
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3;
+}
+
+
+
+/* Стили для ссылок */
+.link-item {
+    text-decoration: none; /* Убирает подчеркивание */
+    color: black; /* Цвет текста по умолчанию */
+}
+
+/* Стили для состояния наведения и фокуса */
+.link-item:hover,
+.link-item:focus {
+    color: #2196F3; /* Цвет текста при наведении и фокусе */
+    background-color: white; /* Фоновый цвет при наведении */
+}
+
+/* Стили для активной ссылки */
+.link-item.active {
+    color: #2196F3; /* Цвет текста для активной страницы */
+    font-weight: bold; /* Жирный текст для активной страницы */
+}
+
+.addres {
+    text-decoration: none;
+    list-style: none;
+}
+
+.addres-link {
+    text-decoration: none; 
+    color: black; 
+}
+
+.addres-link:hover,
+.addres-link:focus {
+    color: #2196F3; 
+    background-color: white; 
+}
+
+.hero {
+background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button {
+    font-family: inherit;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16;
+    line-height: 1.88;
+    letter-spacing: 0.06;
+    cursor: pointer;
+    
+}
+ 
+
+.link {
+    font-family: inherit;
+    text-decoration: none;
+}
+
+.title-item {
+    font-family: inherit;
+    color: #212121;
+    font-weight: 700;
+    font-size: 14;
+    line-height: 1.17;
+    letter-spacing: 0.03;
+}
+
+.text-item {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14;
+    line-height: 1.71;
+    letter-spacing: 0.03;
+   
+}
+
+.title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36;
+    line-height: 1.17;
+    letter-spacing: 0.03;
+    text-align: center;
+}
+
+.team {
+   color: #212121;
+   font-weight: 700;
+   font-size: 36;
+   line-height: 1.17;
+   letter-spacing: 0.03;
+   text-align: center;
+}
+
+.team-title {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.17;
+    letter-spacing: 0.03;
+    text-align: center;
+}
+
+.team-info {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16;
+    line-height: 1.17;
+    letter-spacing: 0.03;
+    text-align: center;
+}
+
+
+/* Стили для нижнего логотипа */
+.logo-footer-container {
+    font-family: "Raleway";
+           /* Убирает подчеркивание */
+    font-weight: 700;           /* Жирное начертание шрифта */
+    font-size: 24px;            /* Размер шрифта */
+    line-height: 1.5;           /* Высота строки */
+    letter-spacing: 0.05em;     /* Расстояние между буквами */
+    color: inherit;             /* Наследуем цвет для текста */
+}
+
+/* Цвет синего для 'Web' */
+.logo-footer-container .logo-footer {
+  
+    color: #2196F3;             /* Синий цвет для 'Web' */
+}
+
+/* Белый цвет для 'Studio' */
+.logo-footer-container .link-footer {
+    color: #FFFFFF;
+    text-decoration: none;             /* Белый цвет для 'Studio' */
+}
+
+
+
+
+.info {
+    background-color: #2F303A;
+}
+
+.footer {
+    font-family: "Roboto";
+    list-style: none;
+}
+
+
+.info-footer-link-item{
+    font-family: "Roboto";
+    font-style: normal;
+    text-decoration: none;
+    color: #FFFFFF99
+    
+    
+}
+
+.info-footer-link {
+    font-family: "Roboto";
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14;
+    line-height: 1.71;
+    letter-spacing: 0.03;
+    color: #FFFFFF;
+}
+
+.info-footer-link:hover,
+.info-footer-link:focus {
+    color: #2196F3;
+}
+
+.info-footer-link-item:hover,
+.info-footer-link-item:focus {
+    color: #2196F3;
+}
+
+.portfolio-button-list {
+    text-decoration: none;
+    text-align: center;
+}
+
+.portfolio-button {
+    font-family: inherit;
+    color: #212121;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.62;
+    letter-spacing: 0.03;
+    cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.portfolio-title {
+    font-family: inherit;
+    color: #212121;
+    font-weight: 700;
+    font-size: 18;
+    line-height: 2;
+    letter-spacing: 0.06;
+}
+
+.portfolio-text {
+    font-family: inherit;
+    color: #757575;
+    font-weight: 400;
+    font-size: 16;
+    line-height: 1.87;
+    letter-spacing: 0.03;
+}
+
+
+
+
+
+
+
+
+
