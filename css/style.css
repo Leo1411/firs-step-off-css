@@ -12,6 +12,10 @@ body {
     display: none;
 }
 
+img {
+    display: block;
+}
+
 
 h1,
 h2,
@@ -27,7 +31,7 @@ a {
 
 .section {
     padding: 94px 0;
- 
+
 }
 
 
@@ -53,7 +57,7 @@ a {
 }
 
 .site-nav {
-    
+
     display: flex;
     align-items: center;
     width: 100%;
@@ -80,7 +84,7 @@ a {
     padding-bottom: 12px;
     font-size: 14px;
     color: #212121;
- 
+
 
 
 }
@@ -165,7 +169,7 @@ a {
 
 .hero-container {
     padding: 200px 0;
-   
+
 }
 
 .hero-title {
@@ -198,7 +202,7 @@ a {
 .section-ad {
     margin-bottom: 0;
     padding-bottom: 0;
-   
+
 }
 
 
@@ -212,12 +216,12 @@ a {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
-  }
+}
 
- .item {
+.item {
     display: flex;
     gap: 20px;
- }
+}
 
 
 
@@ -250,15 +254,18 @@ a {
 }
 
 .link {
-    display: flex; /* Включаем flexbox */
-    justify-content: center; /* Центрируем изображения по горизонтали */
-    gap: 20px; /* Отступы между изображениями */
+    display: flex;
+    /* Включаем flexbox */
+    justify-content: center;
+    /* Центрируем изображения по горизонтали */
+    gap: 20px;
+    /* Отступы между изображениями */
 }
 
 /* OUR TEAAAAAAAAAAAAAAAAAAAAM */
 
 .people {
-    background-color: #F5F4FA ;
+    background-color: #F5F4FA;
 }
 
 .team {
@@ -272,13 +279,13 @@ a {
 .team-list {
     display: flex;
     gap: 30px;
-    
+
 }
 
 .persons {
-    color: #FFFFFF ;
+    color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-     box-shadow:  1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-description {
@@ -289,6 +296,7 @@ a {
 .team-title {
     color: #212121;
     font-weight: 500;
+    margin-bottom: 12px;
     font-size: 16px;
     line-height: 1.17;
     letter-spacing: 0.03px;
@@ -298,82 +306,64 @@ a {
 .team-info {
     color: #757575;
     font-weight: 400;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.17;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03px;
     text-align: center;
 }
 
-/* bottom logoooooo o o o o */
 
-/* Стили для нижнего логотипа */
-.logo-footer-container {
+/* FOOOTER LOGO*/
+
+.link-footer {
     font-family: "Raleway";
-    /* Убирает подчеркивание */
-    font-weight: 700;
-    /* Жирное начертание шрифта */
-    font-size: 24px;
-    /* Размер шрифта */
-    line-height: 1.5;
-    /* Высота строки */
-    letter-spacing: 0.05em;
-    /* Расстояние между буквами */
-    color: inherit;
-    /* Наследуем цвет для текста */
-}
-
-/* Цвет синего для 'Web' */
-.logo-footer-container .logo-footer {
-
-    color: #2196F3;
-    /* Синий цвет для 'Web' */
-}
-
-/* Белый цвет для 'Studio' */
-.logo-footer-container .link-footer {
     color: #FFFFFF;
-    text-decoration: none;
-    /* Белый цвет для 'Studio' */
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15px;
+    letter-spacing: 0.03;
 }
 
+.logo-footer {
+    font-family: "Raleway";
+    color: #2196F3
+}
 
+/* REAL FOOTEEEER*/
 
-
-.info {
+.footer {
+    padding: 60px 0;
     background-color: #2F303A;
 }
 
-.footer {
-    font-family: "Roboto";
-    list-style: none;
+
+.footer-list {
+    margin-top: 20px;
 }
 
-
-.info-footer-link-item {
-    font-family: "Roboto";
-    font-style: normal;
-    text-decoration: none;
-    color: #FFFFFF99
-}
-
-.info-footer-link {
-    font-family: "Roboto";
-    font-style: normal;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 14;
-    line-height: 1.71;
-    letter-spacing: 0.03;
+.footer-item-link {
+    display: inline-block;
     color: #FFFFFF;
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 1.71
 }
 
-.info-footer-link:hover,
-.info-footer-link:focus {
+.footer-item-links {
+    display: inline-block;
+    color: #FFFFFF99;
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.footer-item-link:hover,
+.footer-item-link:focus {
     color: #2196F3;
 }
 
-.info-footer-link-item:hover,
-.info-footer-link-item:focus {
+.footer-item-links:hover,
+.footer-item-links:focus {
     color: #2196F3;
 }
 
