@@ -8,7 +8,7 @@ body {
     box-sizing: inherit;
 }
 
-.hidden {
+.visually-hidden {
     display: none;
 }
 
@@ -84,9 +84,6 @@ a {
     padding-bottom: 12px;
     font-size: 14px;
     color: #212121;
-
-
-
 }
 
 
@@ -242,7 +239,7 @@ a {
 }
 
 
-/* BAD BOYS BAD BOYS WHAT WE GONNA DO WHAT WE GONNA DO BAD BOYS BAD BOYS */
+/* what we are doing*/
 
 
 .title {
