@@ -370,19 +370,31 @@ a {
     color: #2196F3;
 }
 
+/* PORTFOLIOOOO*/
+
+
+
 .portfolio-button-list {
-    text-decoration: none;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
+.portfolio-button-list-item {
+    margin-left: 8px;
+}
+
+
 .portfolio-button {
-    font-family: inherit;
+    padding: 6px 22px;
     color: #212121;
     background-color: #F5F4FA;
     font-weight: 500;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.62;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03px;
+    border-radius: 4px;
+    border: 0;
     cursor: pointer;
 }
 
@@ -392,11 +404,27 @@ a {
     color: #FFFFFF;
 }
 
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-list-text {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.portfolio-description {
+    padding: 20px 24px;
+    border: 1px color(#EEEEEE)
+}
+
 .portfolio-title {
     font-family: inherit;
     color: #212121;
     font-weight: 700;
-    font-size: 18;
+    font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06;
 }
