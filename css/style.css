@@ -283,7 +283,7 @@ a {
 }
 
 .persons {
-    color: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
     box-shadow: 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -341,9 +341,11 @@ a {
     margin-top: 20px;
 }
 
+
 .footer-item-link {
     display: inline-block;
     color: #FFFFFF;
+    font-style: normal;
     margin-bottom: 6px;
     font-size: 14px;
     line-height: 1.71
@@ -352,6 +354,7 @@ a {
 .footer-item-links {
     display: inline-block;
     color: #FFFFFF99;
+    font-style: normal;
     margin-bottom: 6px;
     font-size: 14px;
     line-height: 1.71;
