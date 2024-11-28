@@ -202,15 +202,16 @@ a {
 
 /* IMAGESSSSS */
 
-
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-}
+    gap: 30px 25px;                     
+}               
+
 
 .portfolio-list-text {
-    margin-right: 30px;
-    margin-bottom: 30px;
+    width: calc(33.3333% - 20px);    /* Это устанавливает ширину элементов для трех колонок */
+      
 }
 
 .portfolio-list-text:nth-child(3n) {
@@ -263,6 +264,11 @@ a {
     background-color: #2F303A;
 }
 
+.footer-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 
 .footer-list {
     margin-top: 20px;
@@ -273,7 +279,6 @@ a {
     display: inline-block;
     color: #FFFFFF;
     font-style: normal;
-    margin-bottom: 6px;
     font-size: 14px;
     line-height: 1.71
 }
@@ -282,10 +287,13 @@ a {
     display: inline-block;
     color: #FFFFFF99;
     font-style: normal;
-    margin-bottom: 6px;
     font-size: 14px;
     line-height: 1.71;
 }
+
+.footer-item li:not(:last-child) {
+    margin-bottom: 9px;
+  }
 
 .footer-item-link:hover,
 .footer-item-link:focus {
