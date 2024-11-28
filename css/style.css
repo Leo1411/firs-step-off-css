@@ -315,9 +315,8 @@ a {
 .link-footer {
     font-family: "Raleway";
     color: #FFFFFF;
-    font-weight: 700;
     font-size: 26px;
-    line-height: 1.15px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -340,7 +339,7 @@ a {
 
 
 .footer-list {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 
