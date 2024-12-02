@@ -13,6 +13,7 @@ body {
 }
 
 img {
+    width: 100%;
     display: block;
 }
 
@@ -250,13 +251,17 @@ a {
     text-align: center;
 }
 
-.link {
+.things-list {
     display: flex;
     /* Включаем flexbox */
     justify-content: center;
     /* Центрируем изображения по горизонтали */
     gap: 20px;
     /* Отступы между изображениями */
+}
+
+.things-list-item {
+    width: calc(33% - 20px)
 }
 
 /* OUR TEAAAAAAAAAAAAAAAAAAAAM */
@@ -313,6 +318,8 @@ a {
 /* FOOOTER LOGO*/
 
 .link-footer {
+    display: inline-block;
+    margin-bottom: 20px;
     font-family: "Raleway";
     color: #FFFFFF;
     font-size: 26px;
@@ -339,7 +346,9 @@ a {
 
 
 .footer-list {
-    margin-top: 15px;
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
 }
 
 
@@ -358,10 +367,6 @@ a {
     font-size: 14px;
     line-height: 1.71;
 }
-.footer-item li:not(:last-child) {
-    margin-bottom: 9px;
-  }
- 
 
 .footer-item-link:hover,
 .footer-item-link:focus {

@@ -26,6 +26,7 @@ body {
 
 
 img {
+    width: 100%;
     display: block;
 }
 
@@ -63,6 +64,8 @@ a {
 .header-container {
     display: flex;
     align-items: center;
+    padding-left: 0;
+    padding-right: 0;
 
 }
 
@@ -172,12 +175,9 @@ a {
 
 .portfolio-button-list {
     display: flex;
+    gap: 8px;
     justify-content: center;
     margin-bottom: 50px;
-}
-
-.portfolio-button-list-item {
-    margin-left: 8px;
 }
 
 
@@ -210,8 +210,7 @@ a {
 
 
 .portfolio-list-text {
-    width: calc(33.3333% - 20px);    /* Это устанавливает ширину элементов для трех колонок */
-      
+    width: calc(33.333% - 20px); /* 3 элемента в ряд, отнимаем 30px от gap */
 }
 
 
@@ -238,12 +237,13 @@ a {
 }
 
 .link-footer {
+    display: inline-block;
+    margin-bottom: 20px;
     font-family: "Raleway";
     color: #FFFFFF;
-    font-weight: 700;
     font-size: 26px;
-    line-height: 1.15px;
-    letter-spacing: 0.03;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .logo-footer {
@@ -265,7 +265,9 @@ a {
 
 
 .footer-list {
-    margin-top: 20px;
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
 }
 
 
@@ -284,10 +286,10 @@ a {
     font-size: 14px;
     line-height: 1.71;
 }
-
 .footer-item li:not(:last-child) {
     margin-bottom: 9px;
   }
+ 
 
 .footer-item-link:hover,
 .footer-item-link:focus {
